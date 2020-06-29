@@ -8,7 +8,6 @@ body {
 	font-family: Roboto, sans-serif;
 }
 header {
-	min-height: 700px;
 	height: 100vh;
 	font-weight: 400;
 	background-image: url(images/header_main.png);
@@ -344,9 +343,10 @@ footer span {
 	width: 15%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
-@media (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
 	.header_buttons {
 		display: flex;
     	flex-direction: column;
@@ -354,5 +354,140 @@ footer span {
 	.header_buttons a {
 		margin: 0 0 2% 0;
 	}
+}
+@media screen and (max-width: 790px) {
+	nav {
+		display: flex;
+		flex-direction: column;
+		padding: 4% 0 4% 0;
+		width: 100%;
+	}
+	.list_nav {
+		width: 85%;
+	}
+	.list_nav ul li a {
+		font-size: 35px;
+	}
+	.list nav ul {
+		display: flex;
+		flex-direction: column;
+	}
+	nav {
+		visibility: hidden;
+	}
+	nav .logo {
+		display: none;
+	}
+	nav .button {
+		display: none;
+	}
+	header {
+		background-position: inherit;
+	}
+	.header_main {
+		height: auto;
+		width: auto;
+	}
+	.header_main .header_buttons {
+		margin-top: 3.6%;
+	}
 
+
+
+
+
+	.second {
+		height: auto;
+		flex-direction: column;
+	}
+	.second_left {
+		width: auto;
+		order: 1;
+		padding-top: 7%;
+	}
+	.second_right {
+		width: auto;
+	}
+
+	.third {
+		padding-top: 7%;
+		height: auto;
+		flex-direction: column;
+	}
+	.third .right_third {
+		width: auto;
+		order: 1;
+		padding-top: 7%;
+	}
+	.third .left_third {
+		width: auto;
+	}
+	.third .left_third img {
+    	width: 100%;
+	}
+
+
+	.fourth {
+		padding-top: 7%;
+		height: auto;
+		flex-direction: column;
+	}
+	.fourth .right_fourth {
+		width: auto;
+		order: 1;
+		padding-top: 7%;
+	}
+	.fourth .left_fourth {
+		width: auto;
+	}
+	.fourth .left_fourth img {
+    	width: 100%;
+	}
+
+
+	.fifth {
+		padding-top: 7%;
+		height: auto;
+		flex-direction: column;
+	}
+	.fifth .right_fifth {
+		width: auto;
+		order: 1;
+		padding-top: 7%;
+	}
+	.fifth .left_fifth {
+		width: auto;
+	}
+	.fifth .left_fifth img {
+    	width: 100%;
+	}
+	.fifth .right_fifth a {
+		display: block;
+	}
+
+	.sixth_content {
+		width: 90%;
+	}
+	.sixth {
+		padding: unset;
+		margin: 0.7% 8.7% 0 8.7%;
+	}
+
+	footer {
+		min-height: 75px;
+		margin-top: 3%;
+	}
+	footer .top_list {
+		display: none;
+	}
+	footer .left_bottom {
+		display: none;
+	}
+	footer .right_bottom {
+		width: 100%;
+    	padding-top: 25px;
+	}
+	footer img {
+		width: 140%;
+	}
 }
