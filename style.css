@@ -493,4 +493,7 @@ footer span {
 	footer img {
 		width: 140%;
 	}
+	footer span {
+		display: none;
+	}
 }
