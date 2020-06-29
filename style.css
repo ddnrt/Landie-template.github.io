@@ -399,7 +399,6 @@ footer span {
 
 	.second {
 		flex-direction: column;
-		height: 100%;
 	}
 	.second_left {
 		width: auto;
@@ -409,7 +408,10 @@ footer span {
 	.second_right {
 		width: auto;
 	}
-
+	
+	main {
+		padding: 10% 0 0 0;
+	}
 	.third {
 		padding-top: 7%;
 		height: auto;
