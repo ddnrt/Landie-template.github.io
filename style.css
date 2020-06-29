@@ -383,6 +383,7 @@ footer span {
 	}
 	header {
 		background-position: inherit;
+		height: 100%;
 	}
 	.header_main {
 		height: auto;
