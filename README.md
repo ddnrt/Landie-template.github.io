@@ -1,4 +1,4 @@
 ## Landie-template
-Layout landie free template.
+Layout landing template.
 
 Added responsive for mobile devices.
