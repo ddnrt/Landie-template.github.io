@@ -398,6 +398,7 @@ footer span {
 
 	.second {
 		flex-direction: column;
+		height: 100%;
 	}
 	.second_left {
 		width: auto;
