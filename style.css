@@ -488,7 +488,7 @@ footer span {
 		width: auto;
 	}
 	.third .left_third img {
-    	width: 100%;
+    		width: 100%;
 	}
 	.fourth {
 		padding-top: 7%;
@@ -504,10 +504,8 @@ footer span {
 		width: auto;
 	}
 	.fourth .left_fourth img {
-    	width: 100%;
+    		width: 100%;
 	}
-
-
 	.fifth {
 		padding-top: 7%;
 		height: auto;
@@ -522,7 +520,7 @@ footer span {
 		width: auto;
 	}
 	.fifth .left_fifth img {
-    	width: 100%;
+    		width: 100%;
 	}
 	.fifth .right_fifth a {
 		display: none;
