@@ -437,7 +437,7 @@ footer span {
 		flex-direction: column;
 	}
 	nav {
-		visibility: hidden;
+		display: none;
 	}
 	nav .logo {
 		display: none;
@@ -452,6 +452,7 @@ footer span {
 	.header_main {
 		height: auto;
 		width: auto;
+		margin-top: 15%;
 	}
 	.header_main .header_buttons {
 		margin-top: 3.6%;
