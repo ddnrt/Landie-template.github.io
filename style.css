@@ -346,6 +346,70 @@ footer span {
 	align-items: center;
 }
 
+/* MOBILE NAV (https://www.w3schools.com/howto/howto_js_off-canvas.asp) */
+
+.hamburger {
+  	display: none;
+  	cursor: pointer;
+  	float: right;
+  	margin-top: 4%;
+}
+
+.bar1, .bar2, .bar3 {
+  	width: 35px;
+ 	height: 5px;
+ 	background-color: #333;
+  	margin: 6px 0;
+  	transition: 0.4s;
+}
+
+.mobile_nav {
+  	height: 100%; /* 100% Full-height */
+  	width: 0; /* 0 width - change this with JavaScript */
+  	position: fixed; /* Stay in place */
+  	z-index: 1; /* Stay on top */
+  	top: 0;
+  	left: 0;
+ 	background-color: #111B47; /* Black*/
+  	overflow-x: hidden; /* Disable horizontal scroll */
+  	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.mobile_nav a {
+  	padding: 8px 8px 8px 32px;
+  	text-decoration: none;
+  	font-size: 48px;
+  	color: #929ECC;
+  	display: block;
+  	transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.mobile_nav a:hover {
+  	color: #E7ECFF;
+}
+
+/* Position and style the close button (top right corner) */
+.mobile_nav .closebtn {
+  	position: absolute;
+  	top: 0;
+  	right: 25px;
+  	font-size: 56px;
+  	margin-left: 50px;
+}
+
+.mobile_nav ul {
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+	justify-content: center;
+}
+
+
+
+
 @media screen and (max-width: 1400px) {
 	.header_buttons {
 		display: flex;
