@@ -407,7 +407,9 @@ footer span {
 	justify-content: center;
 }
 
-
+.overflow-active {
+	overflow:hidden;
+}
 
 
 @media screen and (max-width: 1400px) {
