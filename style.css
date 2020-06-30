@@ -456,11 +456,9 @@ footer span {
 	.header_main .header_buttons {
 		margin-top: 3.6%;
 	}
-
-
-
-
-
+	.hamburger {
+		display: inline-block;
+	}
 	.second {
 		height: 90%;
 		flex-direction: column;
@@ -473,7 +471,6 @@ footer span {
 	.second_right {
 		width: auto;
 	}
-	
 	main {
 		padding: 10% 0 0 0;
 	}
@@ -493,8 +490,6 @@ footer span {
 	.third .left_third img {
     	width: 100%;
 	}
-
-
 	.fourth {
 		padding-top: 7%;
 		height: auto;
@@ -532,7 +527,6 @@ footer span {
 	.fifth .right_fifth a {
 		display: none;
 	}
-
 	.sixth_content {
 		width: 90%;
 	}
@@ -540,7 +534,6 @@ footer span {
 		padding: unset;
 		margin: 0.7% 8.7% 0 8.7%;
 	}
-
 	footer {
 		min-height: 75px;
 		margin-top: 3%;
